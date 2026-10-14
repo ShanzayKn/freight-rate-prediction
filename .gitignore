@@ -1,0 +1,21 @@
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local settings
+.env
+.vscode/
+
+# Generated artifacts
+models/
+reports/figures/
+
+# Local assessment datasets and outputs
+data/
+validation_predictions.csv
+scorer_results/
+
+# Testing and notebook caches
+.pytest_cache/
+.ipynb_checkpoints/
